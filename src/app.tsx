@@ -3,16 +3,6 @@ import ReactDOM from 'react-dom'
 
 import Profile from './components/Profile'
 
-/*function Profile() {
-    return (
-      <img
-        src="https://i.imgur.com/MK3eW3Am.jpg"
-        alt="Katherine Johnson"
-      />
-    )
-  }
-*/
-
 function App() {
     console.log("App");
     return (
