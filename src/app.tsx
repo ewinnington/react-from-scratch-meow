@@ -2,6 +2,7 @@ import * as React from 'react'
 import ReactDOM from 'react-dom'
 
 import Profile from './components/Profile'
+import Greeting from './components/Greeting';
 
 function App() {
     console.log("App");
@@ -13,6 +14,7 @@ function App() {
         <Profile />
         <Profile />
         
+        <Greeting />
         </div>
     )
 }
