@@ -4,7 +4,9 @@
   "description": "A react playground for VS Codespaces on github to try out some snippets",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "esbuild src/app.tsx --bundle --minify --outdir=www/js",
+    "dev": "esbuild src/app.tsx --bundle --minify --outdir=www/js --servedir=www/ --serve"
   },
   "author": "",
   "license": "ISC",

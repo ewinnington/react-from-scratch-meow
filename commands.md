@@ -13,3 +13,30 @@ mkdir www/js
 ## start it up 
 
 npx esbuild app.tsx --bundle --servedir=www/  --outdir=www/js --serve
+
+
+
+## build it 
+
+- **added into package.json** under scripts:  "build": "esbuild app.tsx --bundle --minify --outdir=www/js"
+
+npm run build 
+
+## Improve it by 
+
+mkdir 
+mv app.tsx src/app.tsx
+
+npx esbuild src/app.tsx --bundle --servedir=www/  --outdir=www/js --serve
+
+- **added into package.json** under scripts:  
+  "build": "esbuild src/app.tsx --bundle --minify --outdir=www/js",
+  "dev": "esbuild src/app.tsx --bundle --minify --outdir=www/js --servedir=www/ --serve"
+
+## Added Profile.jsx
+
+remember to import React at the beginning at every Profile.jsx 
+
+import React from 'react';
+
+
