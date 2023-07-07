@@ -1,0 +1,18 @@
+{
+  "name": "scratch-meow",
+  "version": "1.0.0",
+  "description": "A react playground for VS Codespaces on github to try out some snippets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6",
+    "esbuild": "^0.18.11",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
