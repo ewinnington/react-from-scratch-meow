@@ -40,3 +40,8 @@ remember to import React at the beginning at every Profile.jsx
 import React from 'react';
 
 
+## reminder - to return to last git state
+
+git reset --hard HEAD
+git clean -fxd
+
